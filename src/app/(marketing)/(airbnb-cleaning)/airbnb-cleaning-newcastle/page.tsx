@@ -23,7 +23,7 @@ export default function Page() {
                 { title: 'Home', href: '/' },
                 {
                     title: 'Airbnb Cleaning',
-                    href: '/airbnb-cleaning-gold-coast',
+                    href: '/airbnb-cleaning',
                 },
             ]}
         />

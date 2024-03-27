@@ -23,15 +23,22 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                         aria-labelledby="footer-branding-heading"
                         className="w-full lg:max-w-sm"
                     >
-                        <Link
-                            aria-label="Home"
-                            href="/"
-                            className="text-2xl italic flex items-center space-x-2"
-                        >
-                            <span className="font-bold">{siteConfig.logo}</span>
-                        </Link>
+                        <div className="relative">
+                            <div className="text-2xl italic flex items-center space-x-2 font-bold">
+                                {siteConfig.logo}
+                            </div>
+                            <Link
+                                aria-label="Home"
+                                href="/"
+                                className="inset-0 absolute"
+                            >
+                                <span className="sr-only">
+                                    {siteConfig.title}
+                                </span>
+                            </Link>
+                        </div>
                         <p className="my-4 max-w-xs text-xs md:text-sm">
-                            We transform Gold Coast homes from chaotic havens
+                            We transform Newcastle homes from chaotic havens
                             into sparkling sanctuaries, all while respecting the
                             environment and your peace of mind.
                         </p>
@@ -101,21 +108,6 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                         ))}
                     </section>
                 </section>
-                <FooterTabs />
-                {/* <section className="sr-only">
-                    <div>
-                        Looking for professional house cleaner in Perth?
-                        <Link
-                            href={siteConfig.links.westmaid}
-                            title="WestMaid - House Cleaning Service Perth"
-                        >
-                            WestMaid&apos;s House Cleaning Perth
-                        </Link>
-                        ,the top-rated cleaning service in Perth, ensures
-                        pristine cleanliness and satisfaction in every corner of
-                        your home.
-                    </div>
-                </section> */}
                 <section
                     id="footer-bottom"
                     aria-labelledby="footer-bottom-heading"

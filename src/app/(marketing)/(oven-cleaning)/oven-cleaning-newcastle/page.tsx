@@ -22,7 +22,7 @@ export default function Page() {
                 { title: 'Home', href: '/' },
                 {
                     title: 'Oven Cleaning',
-                    href: '/oven-cleaning-gold-coast',
+                    href: '/oven-cleaning',
                 },
             ]}
         />

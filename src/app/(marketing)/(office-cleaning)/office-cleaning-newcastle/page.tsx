@@ -23,7 +23,7 @@ export default function Page() {
                 { title: 'Home', href: '/' },
                 {
                     title: 'Office Cleaning',
-                    href: '/office-cleaning-gold-coast',
+                    href: '/office-cleaning',
                 },
             ]}
         />

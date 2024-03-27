@@ -4,25 +4,24 @@ import type { FooterItem, MainNavItem } from '@/types';
 export type SiteConfig = typeof siteConfig;
 
 const links = {
-    facebook: 'https://www.facebook.com/people/Coast-Maid/61556988147072/',
-    instagram: 'https://instagram.com/coastmaid',
-    twitter: 'https://twitter.com/coastmaid',
-    pinterest: 'https://www.pinterest.com.au/coastmaid',
-    linkin: 'https://www.linkedin.com/company/coast-maid',
-    youtube: 'https://www.youtube.com/@CoastMaid',
+    facebook: 'https://www.facebook.com/',
+    instagram: 'https://instagram.com/',
+    twitter: 'https://twitter.com/',
+    pinterest: 'https://www.pinterest.com.au/',
+    linkin: 'https://www.linkedin.com/company/',
+    youtube: 'https://www.youtube.com/@',
     googlemap: '',
 
     yelp: 'https://www.yelp.com/biz/',
-    westmaid: 'https://westmaid.com.au/',
 };
 
 export const siteConfig = {
-    logo: 'MaidNewie',
-    name: 'Maid Newie',
-    title: `newcastle's Premium House Cleaning Serivce | Coast Maid`,
+    logo: 'PureCleaning',
+    name: 'Pure Cleaning Newcastle',
+    title: `Pure Cleaning Newcastle - Professional Cleaning Serivce Newcastle`,
     description: `Our top-rated cleaning services come with a 200% satisfaction guarantee. We deliver sparkling results you'll love with our professional cleaners. Book online in 60 seconds!`,
-    url: 'https://maidnewie.com.au',
-    ogImage: 'https://maidnewie.com.au/opengraph-image.png',
+    url: 'https://purecleaningnewcastle.com.au',
+    ogImage: 'https://purecleaningnewcastle.com.au/opengraph-image.png',
     mainNav: [
         {
             title: 'Services',
@@ -130,7 +129,7 @@ export const siteConfig = {
         },
     ] satisfies FooterItem[],
     business: {
-        email: 'contact@coastmaid.com.au',
+        email: 'contact@purecleaningnewcastle.com.au',
         phone: '1302 245 417',
         address: '10 Rowes St, 4217 Queensland',
         openingHour: 'Mon – Sun: 9:00 AM – 5:00 PM',
