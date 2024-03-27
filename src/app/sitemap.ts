@@ -26,7 +26,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         '/house-cleaning-checklist',
         '/sitemap',
 
-        '/bond-cleaning-newcastle',
+        '/end-of-lease-cleaning-newcastle',
         '/deep-cleaning-newcastle',
         '/regular-cleaning-newcastle',
         '/office-cleaning-newcastle',
