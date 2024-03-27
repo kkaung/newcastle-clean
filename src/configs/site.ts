@@ -136,7 +136,7 @@ export const siteConfig = {
     },
     rating: {
         ratingValue: '4.9',
-        ratingCount: '727',
+        ratingCount: 727,
     },
 };
 
