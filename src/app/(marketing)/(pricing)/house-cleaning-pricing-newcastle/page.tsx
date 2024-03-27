@@ -11,7 +11,6 @@ import {
     TableBody,
     TableCaption,
     TableCell,
-    TableFooter,
     TableHead,
     TableHeader,
     TableRow,
@@ -25,13 +24,15 @@ import FAQs from '../_components/faqs';
 import Link from 'next/link';
 import { Icons } from '@/components/icons';
 import { formatDate } from '@/lib/utils';
-import { ArticleJsonLd } from 'next-seo';
 
 export const runtime = 'edge';
 
 export const metadata: Metadata = {
     title: 'House Cleaning Prices In Newcastle',
     description: `Get crystal clear pricing on Newcastle's top-rated house cleaning services. Find the perfect fit for your budget and needs, with options from weekly refreshes to deep dives.`,
+    alternates: {
+        canonical: '/house-cleaning-pricing-newcastle',
+    },
 };
 
 const pricingList = [
